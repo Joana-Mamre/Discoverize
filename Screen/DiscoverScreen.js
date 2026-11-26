@@ -254,17 +254,7 @@ export default function DiscoverScreen({ navigation }) {
           </View>
         )}
 
-        <View style={{ backgroundColor: '#F0E9DE', borderRadius: 16, padding: 18, marginTop: 8, flexDirection: 'row', alignItems: 'center' }}>
-          <View style={{ width: 38, height: 38, borderRadius: 19, backgroundColor: '#E5D9C9', alignItems: 'center', justifyContent: 'center', marginRight: 12 }}>
-            <Ionicons name="information-circle-outline" size={18} color="#8A6848" />
-          </View>
-          <View style={{ flex: 1 }}>
-            <Text style={{ color: '#24211E', fontSize: 13, fontWeight: '600' }}>A local demo collection.</Text>
-            <Text style={{ color: '#71695F', fontSize: 10, lineHeight: 15, marginTop: 3 }}>
-              Sample pieces priced in Ghana cedis only. No real inventory or purchase is connected.
-            </Text>
-          </View>
-        </View>
+        
       </ScrollView>
     </SafeAreaView>
   );

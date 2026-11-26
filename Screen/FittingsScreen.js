@@ -117,12 +117,7 @@ export default function FittingsScreen({ navigation }) {
           })}
         </View>
 
-        <View style={{ backgroundColor: '#F0E9DE', borderRadius: 14, padding: 15, flexDirection: 'row', alignItems: 'flex-start' }}>
-          <Ionicons name="information-circle-outline" size={17} color="#8A6848" style={{ marginRight: 9, marginTop: 1 }} />
-          <Text style={{ flex: 1, color: '#71695F', fontSize: 10, lineHeight: 16 }}>
-            Demo requests are stored on this device only. They are not sent to an Atelier or calendar.
-          </Text>
-        </View>
+
       </ScrollView>
     </SafeAreaView>
   );
